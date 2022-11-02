@@ -4,11 +4,20 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="나는 1번"
         android:layout_centerInParent="true"
         android:textColor="@color/black"
         android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="테스트 입니다!!!!"
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
 
 </RelativeLayout>
